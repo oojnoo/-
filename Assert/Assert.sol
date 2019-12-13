@@ -118,7 +118,7 @@ contract Asset {
     
     function is_exit_issure(address src) public returns(bool exit,uint pos) {
         exit = false;
-        pos = 0;存草稿
+        pos = 0;
         for(uint i = 0;i < others_debts.length;i++){
             if(others_debts[i].a1 == src){
                 exit = true;
